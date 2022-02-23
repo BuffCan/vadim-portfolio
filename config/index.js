@@ -95,11 +95,11 @@ module.exports = {
   },
   footerLinks: [
     {
-      name: "",
+      name: "Privacy",
       url: "/privacy",
     },
     {
-      name: "",
+      name: "Imprint",
       url: "/imprint",
     },
   ],
