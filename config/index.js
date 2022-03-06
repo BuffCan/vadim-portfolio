@@ -1,6 +1,6 @@
 module.exports = {
   //-- SITE SETTINGS -----
-  author: "@konstantinmuenster",
+  author: "@vadimbowbel",
   siteTitle: "Personal Portfolio",
   siteShortTitle: "VB", // Used as logo text in header, footer, and splash screen
   siteDescription:
@@ -32,8 +32,8 @@ module.exports = {
       tertiary: "#252525",
       text: "rgba(255, 255, 255, 0.87)",
       subtext: "#AAAAAA",
-      background: "#121212",
-      card: "#1C1C1C",
+      background: "#202023",
+      card: "#202023",
       scrollBar: "rgba(255, 255, 255, 0.5)",
       boxShadow: "rgba(0, 0, 0, 0.16)",
       boxShadowHover: "rgba(0, 0, 0, 0.32)",
@@ -50,7 +50,7 @@ module.exports = {
     "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40konstantinmuenster",
   // rssFeed: "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fwww.theguardian.com%2Finternational%2Frss",
 
-  shownArticles: 3,
+  shownArticles: 0,
 
   //-- SOCIAL MEDIA SETTINGS -----
   // There are icons available for the following platforms:
@@ -78,7 +78,7 @@ module.exports = {
         url: "/#about",
       },
       {
-        name: "Features",
+        name: "Projects",
         url: "/#projects",
       },
       {
@@ -95,12 +95,12 @@ module.exports = {
   },
   footerLinks: [
     {
-      name: "Privacy",
-      url: "/privacy",
+      // name: "Privacy",
+      // url: "/privacy",
     },
     {
-      name: "Imprint",
-      url: "/imprint",
+      // name: "Imprint",
+      // url: "/imprint",
     },
   ],
 }
