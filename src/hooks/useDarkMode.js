@@ -12,7 +12,7 @@ const useDarkMode = () => {
       if (event.matches) {
         setState({ ...state, darkMode: true })
       } else {
-        setState({ ...state, darkMode: false })
+        setState({ ...state, darkMode: true })
       }
     }
 
